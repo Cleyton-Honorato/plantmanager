@@ -1,0 +1,24 @@
+{
+	"create compoment": {
+		"prefix": "comp",
+		"body": [
+			"import React from 'react'",
+			"import { SafeAreaView, StyleSheet } from 'react-native';",
+			"",
+			"export function $1() {",
+			"\treturn (",
+			"\t\t<SafeAreaView style={styles.container} >",
+			"",
+			"\t\t</SafeAreaView>",
+			"\t)",
+			"}",
+			"",
+			"const styles = StyleSheet.create({",
+			"\tcontainer: {",
+			"\t\tflex: 1,",
+			"\t},",
+			"});",
+		],
+		"description": "create compoment"
+	}
+}
