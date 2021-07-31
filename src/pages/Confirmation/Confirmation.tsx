@@ -18,16 +18,20 @@ export function Confirmation() {
           😄
         </Text>
 
-        <Text style={styles.subtitle}>
-          Prontinho 
+        <Text style={styles.title}>
+          Prontinho
         </Text>
 
-        <Text style={styles.title}>
-          teste
+        <Text style={styles.subtitle}>
+          Agora vamos começar a cuidar das suas
+          {'\n'}
+          plantinhas com muito cuidado
         </Text>
 
         <View style={styles.footer}>
-          <Button />
+          <Button
+            title="Confirmar"
+          />
         </View>
       </View>
 
